@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Annuaire</title>
+    <link th:href="@{/annuaire.css}" rel="stylesheet">
+</head>
+<body>
+<form action="/annuaire" method="get">
+    <label>
+        <input type="text" class="recherche" name="name" placeholder="Rechercher par nom">
+    </label>
+    <button class="button_recherche" type="submit">Rechercher</button>
+</form>
+<p th:each="Personne : ${persons}" th:text="${Personne.nom} + ' ' + ${Personne.prenom} + ' - ' + ${Personne.telephone} + ' - ' + ${Personne.ville}"></p>
+</body>
+</html>
