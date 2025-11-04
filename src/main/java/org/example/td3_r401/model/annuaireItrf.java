@@ -9,3 +9,5 @@ public interface annuaireItrf {
     void deletePersonById(int id);
     void addPerson(Person person);
 }
+
+//analyse

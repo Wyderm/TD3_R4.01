@@ -54,3 +54,5 @@ public class AnnuaireController {
         return "redirect:/annuaire";
     }
 }
+
+//analyse

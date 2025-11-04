@@ -97,3 +97,6 @@ public class AnnuaireModel implements annuaireItrf {
         persons.add(person);
     }
 }
+
+
+//analyse
